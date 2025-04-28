@@ -18,6 +18,7 @@ namespace SchoolAppCoreRazor.Pages.Enrollments
             _context = context;
         }
 
+          
         public IList<Enrollment> Enrollment { get;set; } = default!;
 
         public async Task OnGetAsync()
